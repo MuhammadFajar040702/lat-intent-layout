@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/db1_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Welcome To The Game"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        tools:text="Welcome To The Game" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_login"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="Play" />
+
+        <Button
+            android:id="@+id/btn_register"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="About" />
+
+        <Button
+            android:id="@+id/btn_about"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center"
+            android:text="Quit" />
+    </LinearLayout>
+
+</LinearLayout>
